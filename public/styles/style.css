@@ -3,5 +3,152 @@
 #fondoIndex {
 width: 100vw;
 height: 100vh;
-    background-image: url("../images/spotify-background.jpeg")
+margin: 0px;
+    background-image: url("/images/spotify-background.jpeg");
+    background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#search-input {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+#search-input div {
+    margin: 8px;
+}
+
+#search-input button {
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+    background-color: brown;
+}
+#search-input input {
+    padding-left: 10px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.imagenes {
+    margin: 15px 30px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenesAlbums {
+    margin: 15px 30px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenesAlbums img {
+    
+    height: 320px;
+    width: 320px;
+}
+.imagenes img {
+    
+    height: 300px;
+    width: 300px;
+}
+
+.container {
+    height: 75px;
+    font-size: 20px;
+    color: white;
+    width: 300px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerAlbums {
+    height: 75px;
+    font-size: 18px;
+    color: white;
+    width: 320px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h4 {
+    margin: 2px;
+}
+
+.container button {
+    margin-top: 0px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background-color: brown;
+}
+
+.containerAlbums button {
+    margin-top: 0px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background-color: brown;
+}
+.containerGeneral {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#tracksCointainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#tracks {
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 3px;
+    background-color: rgb(236, 234, 234);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cabeceraTracks {
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 30px;
+    padding-right: 100px;
+    background-color: rgb(61, 59, 59);
+    color: darkgray;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
 }

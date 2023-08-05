@@ -1,11 +1,15 @@
-<div>
+<div id="tracksContainer">
 
-  <div>
-    {{#each tracks}}
-
+<div id="cabeceraTracks">
+    <h3>Title</h3>
+    <h3>Listen</h3>
+</div>
+  {{#each tracks}}
+    <div id="tracks">
       <h4>{{name}}</h4>
 
       <audio controls src={{preview_url}}></audio>
-    {{/each}}
-  </div>
+    </div>
+  {{/each}}
+
 </div>

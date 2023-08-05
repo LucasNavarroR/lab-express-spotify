@@ -1,13 +1,15 @@
-<div>
-   
-<div>
-     {{#each albums}}
+<div class="containerGeneral">
+
+  {{#each albums}}
+    <div class="imagenesAlbums">
       <img src="{{this.images.0.url}}" alt="Img-album" />
+
+      <div class="containerAlbums">
       <h4>{{this.name}}</h4>
 
       <a href="/albums/{{this.id}}/tracks"><button>View Tracks</button></a>
-
-    {{/each}}
+      </div>
     </div>
+  {{/each}}
 
 </div>

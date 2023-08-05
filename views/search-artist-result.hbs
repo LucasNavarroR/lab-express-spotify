@@ -1,12 +1,14 @@
-<div>
+<div class="containerGeneral">
 
-  <div>
-    {{#each artistArr}}
+  {{#each artistArr}}
+    <div class="imagenes">
       <img src="{{this.images.0.url}}" alt="Img-Artist" />
-      <h4>{{this.name}}</h4>
+      <div class="container">
+        <h4>{{this.name}}</h4>
 
-      <a href="/albums/{{this.id}}"><button>View Albums</button></a>
+        <a href="/albums/{{this.id}}"><button>View Albums</button></a>
+      </div>
+    </div>
+  {{/each}}
 
-    {{/each}}
-  </div>
 </div>
